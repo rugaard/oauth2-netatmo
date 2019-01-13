@@ -1,0 +1,46 @@
+{
+  "name": "rugaard/oauth2-netatmo",
+  "type": "library",
+  "description": "Netatmo OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+  "keywords": [
+    "netatmo",
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authorisation",
+    "rugaard"
+  ],
+  "authors": [
+    {
+      "name": "Morten Rugaard",
+      "email": "morten@rugaard.me",
+      "homepage": "https://github.com/rugaard",
+      "role": "Developer"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "league/oauth2-client": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0",
+    "mockery/mockery": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rugaard\\OAuth2\\Client\\Netatmo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rugaard\\OAuth2\\Client\\Netatmo\\Tests\\": "tests/"
+    }
+  },
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
